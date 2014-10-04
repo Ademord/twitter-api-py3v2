@@ -1,0 +1,16 @@
+{% extends "prueba_layout.html" %}
+
+{% block body %}
+
+	{% for t in tweets %}
+		<div class="col-lg-4">
+          <h4>
+          	<img src="{{ t['user']['profile_image_url'] }}" class="twitter_small" width="15" height="15" alt="">
+          	{% raw t['user']['name'] %}
+			<img src="https://g.twimg.com/Twitter_logo_blue.png" class="twitter_small" width="15" height="15" alt="">
+          </h4>
+          <p>{% raw t['text'] %}</p>
+        </div>
+
+	{% end %}
+{% end %}
