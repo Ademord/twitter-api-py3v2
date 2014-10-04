@@ -10,8 +10,8 @@ def search_hashtag(hashtag, count):
 	#############################################################
 	#          Step 1: Encode consumer key and secret           #
 	#############################################################
-	client_key= 'KlERfpepfwGbr6mFXnJmOlGjB'
-	client_secret = '1eWnSzH4u4uwGghVVDFjkbPnr81pY28dggbHdW2vlNuBByymxU'
+	client_key= 'ENTER YOUR KEY HERE'
+	client_secret = 'ENTER UR SECRET HERE'
 	#############################################################
 	#                Step 2: Obtain a bearer token              #
 	#############################################################
